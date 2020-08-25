@@ -5,19 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage | HOME</title>
     <link rel="stylesheet" href="style4.css">
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-            document.querySelector('.red').onclick = function(){
-                document.querySelector('.hello').style.color = 'red'
-            };
-            document.querySelector('.green').onclick = function(){
-                document.querySelector('.hello').style.color = 'green'
-            };
-            document.querySelector('.blue').onclick = function(){
-                document.querySelector('.hello').style.color = 'blue'
-            };
-        });
-    </script>
+    <script src='script.js'></script>
 </head>
 <body>
     <header>
@@ -31,9 +19,11 @@
         </ul>
     </nav>
     </header>
-    <h1 class='hello'>Hello</h1>
-    <button class="red">Red</button>
-    <button class="green">Green</button>
-    <button class="blue">Blue</button>
+    <section>
+        <h1 class='hello'>Hello</h1>
+        <button class="red">Red</button>
+        <button class="green">Green</button>
+        <button class="blue">Blue</button>
+    </section>
 </body>
 </html>

@@ -56,11 +56,11 @@ button{
     border-radius: 50px;
     transition: all 0.2s ease 0s;
     cursor: pointer;
+    margin: 0 10px;
 }
 
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
-    text-transform: uppercase;
  
 }
 
@@ -73,5 +73,19 @@ button:hover{
 
 .hello{
     display: block;
+    margin: 0 auto;
+}
+
+section{
+    display: inline;
+    align-items: center;
+}
+
+section h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
     margin: 0 auto;
 }
