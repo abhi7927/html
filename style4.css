@@ -15,17 +15,21 @@ li, a, button{
     text-decoration: none;
 }
 
+.main{
+    background:#00ccff;
+}
+
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px 10%;
+    align-items: center;
 }
 
 .logo{
-    height: 30px;
-    width: 30px;
     cursor: pointer;
+    color: cornsilk;
+    letter-spacing: 5px;
 }
 
 .nav_links{
@@ -42,7 +46,7 @@ header{
 }
 
 .nav_links li a:hover{
-    color: #0088a9;
+    color: #00ccff;
 }
 
 button{
@@ -58,4 +62,16 @@ button:hover{
     background-color: rgba(0, 136, 169, 0.8);
     text-transform: uppercase;
  
+}
+
+@media only screen and (max-width:674px){
+    .nav_links{
+        display: none;
+        
+    } 
+}
+
+.hello{
+    display: block;
+    margin: 0 auto;
 }
